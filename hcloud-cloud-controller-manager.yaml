@@ -61,6 +61,7 @@ spec:
             - "--cloud-provider=hcloud"
             - "--leader-elect=false"
             - "--allow-untagged-cloud"
+            - "--feature-gates=ServiceNodeExclusion=true"
           resources:
             requests:
               cpu: 100m
